@@ -8,13 +8,11 @@ This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcel
 ![TiHighcharts](https://raw.githubusercontent.com/joshmocek/TiHighcharts/master/screenshot.png)
 
 ## Notes
-1. This creates a webview and gives the user the option to take a picture and destroy the webview if there is no need for user interaction. This is implemented because of how poorly some widgets work with webviews remaining open. The loadChart() function takes in two parameters: the chart data, and a boolean (as seen in *Usage 1*). In the below function the webview would be destroyed an replaced with a picture of the data.
+1. This creates a webview and gives the user the option to take a picture and destroy the webview if there is no need for user interaction. This is implemented because of how poorly some widgets work with webviews being kept open. The `loadChart()` function takes in two parameters: the chart data, and a boolean (as seen in **Usage 1**). In the below function the webview would be destroyed an replaced with a picture of the data.
 
 	`$.lineChart.loadChart({chartData, true});`
 
-2. In `com.jcm.tihighcharts/assets/html/chart.html` you will find that you might not always need to include `exporting.jsf`, `jquery.min.jsf`, or `highcharts-more.jsf`. If you don't feel free to delete those lines from the html and delete their files from the asset folder.
-
-3. 
+2. In `com.jcm.tihighcharts/assets/html/chart.html` you will find that you might not always need to include `exporting.jsf`, `jquery.min.jsf`, or `highcharts-more.jsf`. If you find no need for them, feel free to delete those lines from the html and delete their associated files from the asset folder.
 
 ## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.jcm.TiHighcharts)
 
