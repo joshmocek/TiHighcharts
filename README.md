@@ -7,6 +7,14 @@ This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcel
 ## Screenshot
 ![TiHighcharts](https://raw.githubusercontent.com/joshmocek/TiHighcharts/master/screenshot.png)
 
+## Tips Are Always Appreciated :)
+
+	Bitcoin: `1Gr8gPsxwbrSuDFxUS53wBDHQ5VHcoLNUV`
+	Ethereum: `0xf9ea6F60Dd61ffF6B2e1b34D274383AaBd918880`
+	Zcash: `t1R4jPCmBof2tGBjPPEvG19Lsno5erhAkUw`
+	Monero: `41hFK3vXafy6WvuDqWZ9nZD1kMuaos54FZnjodhmJ2iL19VvHA2xcN4XWgqyiCcEZGUXFnjektRqA9UqvUSRYv5S3m7PWgr`
+
+
 ## Notes
 1. This creates a webview and gives the user the option to take a picture and destroy the webview if there is no need for user interaction. This is implemented because of how poorly some widgets work with webviews being kept open. The `loadChart()` function takes in two parameters: the chart data, and a boolean (as seen in **Usage 1**). In the below function the webview would be destroyed an replaced with a picture of the data. If the boolean is not set, or set to false then a webview will be used.
 
