@@ -14,7 +14,7 @@ This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcel
 
 2. In `com.jcm.tihighcharts/assets/html/chart.html` you will find that you might not always need to include `exporting.jsf`, `jquery.min.jsf`, or `highcharts-more.jsf`. If you find no need for them, feel free to delete those lines from the html and delete their associated files from the asset folder.
 
-3. If you use this widget and you notice that your view is taking +7 seconds to load consider setting the view after the parent container has loaded. This can be done by not adding your widgets view until the page is loaded.
+3. If you use this widget and you notice that your view is taking +7 seconds to load consider setting the view after the parent container has loaded. This can be done by not adding your widgets view until the parent view is loaded.
 
 	```
 	exports.loaded = function() {
