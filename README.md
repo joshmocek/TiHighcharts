@@ -15,12 +15,12 @@ This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcel
 
 2. In your `app/views/index.xml` use it like this:
 
-	```
-<Alloy>
-	<View id="chartView">
-		<Widget src="com.jcm.tihighcharts" id="lineChart"></Widget>
-	</View>
-</Alloy>
+ 	```
+	<Alloy>
+		<View id="chartView">
+			<Widget src="com.jcm.tihighcharts" id="lineChart"></Widget>
+		</View>
+	</Alloy>
 	```
 
 3. In your `app/controllers/index.js` use it like this:
