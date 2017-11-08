@@ -9,10 +9,13 @@ This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcel
 
 ## Tips Are Always Appreciated :)
 
-	Bitcoin: `1Gr8gPsxwbrSuDFxUS53wBDHQ5VHcoLNUV`
-	Ethereum: `0xf9ea6F60Dd61ffF6B2e1b34D274383AaBd918880`
-	Zcash: `t1R4jPCmBof2tGBjPPEvG19Lsno5erhAkUw`
-	Monero: `41hFK3vXafy6WvuDqWZ9nZD1kMuaos54FZnjodhmJ2iL19VvHA2xcN4XWgqyiCcEZGUXFnjektRqA9UqvUSRYv5S3m7PWgr`
+	Bitcoin:	`1Gr8gPsxwbrSuDFxUS53wBDHQ5VHcoLNUV`
+
+	Ethereum:	`0xf9ea6F60Dd61ffF6B2e1b34D274383AaBd918880`
+
+	Zcash:	`t1R4jPCmBof2tGBjPPEvG19Lsno5erhAkUw`
+
+	Monero:	`41hFK3vXafy6WvuDqWZ9nZD1kMuaos54FZnjodhmJ2iL19VvHA2xcN4XWgqyiCcEZGUXFnjektRqA9UqvUSRYv5S3m7PWgr`
 
 
 ## Notes
