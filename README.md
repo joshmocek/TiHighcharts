@@ -1,15 +1,15 @@
-# Alloy TiHighCharts Widget [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
+# Alloy TiHighCharts Widget [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](https://www.appcelerator.com/mobile-app-development-products/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](https://www.appcelerator.com/mobile-app-development-products/)
 
 ## Overview
-This is a widget for the [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) MVC framework of [Appcelerator](http://www.appcelerator.com)'s [Titanium](http://www.appcelerator.com/platform) platform.
+This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcelerator.com)'s [Titanium](http://www.appcelerator.com/platform) platform.
 
 
 ## Screenshot
-![TiHighCharts](https://raw.github.com/vitorebatista/TiHighCharts/master/docs/screenshot.png)
+![TiHighcharts](https://github.com/joshmocek/TiHighcharts/master/screenshot.png)
 
-## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/TiHighCharts)
+## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.jcm.TiHighcharts)
 
-1. Install [this widget](http://gitt.io/component/TiHighCharts) via [gitTio](http://gitt.io):
+1. Install [this widget](http://gitt.io/component/com.jcm.TiHighcharts) via [gitTio](http://gitt.io):
 
 	`gittio install com.jcm.TiHighcharts`
 
