@@ -5,7 +5,7 @@ This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcel
 
 
 ## Screenshot
-![TiHighcharts](https://github.com/joshmocek/TiHighcharts/master/screenshot.png)
+![TiHighcharts](https://raw.githubusercontent.com/joshmocek/TiHighcharts/master/screenshot.png)
 
 ## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.jcm.TiHighcharts)
 
