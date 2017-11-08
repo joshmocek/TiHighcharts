@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="chartView">
+		<WebView id='chartWebView'></WebView>
+	</View>
+	<View id="chartAsImage" height="0" visible="false"></View>
+</Alloy>

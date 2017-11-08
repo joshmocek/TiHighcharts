@@ -1,0 +1,13 @@
+{
+	"id": "com.jcm.tihighcharts",
+	"name": "com.jcm.tihighcharts",
+	"description" : "",
+	"author": "Josh Mocek",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2017",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"chart,highcharts,graph,pie,line,titanium,appcelerator,widget",
+	"platforms":"android,mobileweb,ios"
+}

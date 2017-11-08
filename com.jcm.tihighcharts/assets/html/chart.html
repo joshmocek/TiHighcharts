@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="highcharts.jsf"></script>
+	<!-- You can comment out the two scripts below if you don't need them -->
+	<script src="jquery.min.jsf"></script>
+	<script src="exporting.jsf"></script>
+	
+	<script type="text/javascript">
+		function plotChart(data, pic) {
+			Ti.API.info('Webview open');
+
+			if (pic) {
+				new Highcharts.Chart(data, Ti.App.fireEvent('fromWebView'));
+			} else {
+				new Highcharts.Chart(data);
+			}
+		};
+	</script>
+</head>
+
+<body>
+	<div id="container"></div>
+</body>
+
+</html>
