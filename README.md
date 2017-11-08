@@ -8,7 +8,7 @@ This is a widget for the Alloy MVC framework of [Appcelerator](http://www.appcel
 ![TiHighcharts](https://raw.githubusercontent.com/joshmocek/TiHighcharts/master/screenshot.png)
 
 ## Notes
-1. This creates a webview and gives the user the option to take a picture and destroy the webview if there is no need for user interaction. This is implemented because of how poorly some widgets work with webviews being kept open. The `loadChart()` function takes in two parameters: the chart data, and a boolean (as seen in **Usage 1**). In the below function the webview would be destroyed an replaced with a picture of the data.
+1. This creates a webview and gives the user the option to take a picture and destroy the webview if there is no need for user interaction. This is implemented because of how poorly some widgets work with webviews being kept open. The `loadChart()` function takes in two parameters: the chart data, and a boolean (as seen in **Usage 1**). In the below function the webview would be destroyed an replaced with a picture of the data. If the boolean is not set, or set to false then a webview will be used.
 
 	`$.lineChart.loadChart({chartData, true});`
 
