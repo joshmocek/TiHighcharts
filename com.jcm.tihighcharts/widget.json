@@ -8,6 +8,6 @@
 	"license":"Public Domain",
 	"min-alloy-version": "1.0",
 	"min-titanium-version":"2.1",
-	"tags":"chart,highcharts,highchart,charts,graph,pie,line,titanium,appcelerator,widget,TiHighcharts",
+	"tags":"chart,highcharts,graph,bar,line,titanium,appcelerator,widget,TiHighcharts",
 	"platforms":"android,mobileweb,ios"
 }
