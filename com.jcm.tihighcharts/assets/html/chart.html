@@ -8,11 +8,8 @@
 	<!-- You can comment out the two scripts below if you don't need them -->
 	<script src="jquery.min.jsf"></script>
 	<script src="exporting.jsf"></script>
-	
 	<script type="text/javascript">
 		function plotChart(data, pic) {
-			Ti.API.info('Webview open');
-
 			if (pic) {
 				new Highcharts.Chart(data, Ti.App.fireEvent('fromWebView'));
 			} else {

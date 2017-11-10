@@ -1,10 +1,24 @@
-function loadChart(data, pic) { // data argument must be properly designed so it can work in different situations
+function loadChart(data, pic) {
 	var url, plotChart;
 	var takePicture = (pic != null) ? pic : false;
+
+	function saveImage() {
+		Ti.API.info('savedImage')
+		var imageView = Ti.UI.createImageView({
+			image: $.chartView.toImage()
+		});
+		$.chartAsImage.add(imageView);
+		$.chartAsImage.height = Ti.UI.SIZE;
+		$.chartAsImage.visible = true;
+		$.chartView.height = 0;
+		$.chartView.visible = false;
+		$.chartView.remove($.chartWebView);
+	}
+
 	if (takePicture) {
 		var webFireEvent = function(e) {
 			Ti.App.removeEventListener('fromWebView', webFireEvent);
-			getImage();
+			saveImage();
 		}
 		Ti.App.addEventListener('fromWebView', webFireEvent);
 	}
@@ -15,28 +29,8 @@ function loadChart(data, pic) { // data argument must be properly designed so it
 	$.chartView.visible = true;
 	$.chartWebView.url = url;
 	$.chartWebView.addEventListener('load', function() {
-		Ti.API.info('chartWebView loaded');
 		$.chartWebView.evalJS(plotChart);
 	});
 }
 
-function getImage() {
-	function savedImage(blob) {
-		var imageView = Ti.UI.createImageView({
-			image: blob.blob
-		});
-		$.chartAsImage.add(imageView);
-		$.chartAsImage.height = Ti.UI.SIZE;
-		$.chartAsImage.visible = true;
-		$.chartView.height = 0;
-		$.chartView.visible = false;
-		//once the webview image has been set remove the webview
-		$.chartView.remove($.chartWebView);
-	}
-
-	//save webview as an image
-	$.chartView.toImage(savedImage);
-}
-
 exports.loadChart = loadChart;
-exports.getImage = getImage;
