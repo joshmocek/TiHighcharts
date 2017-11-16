@@ -23,7 +23,7 @@ Monero: `41hFK3vXafy6WvuDqWZ9nZD1kMuaos54FZnjodhmJ2iL19VvHA2xcN4XWgqyiCcEZGUXFnj
 
 	`$.lineChart.loadChart({chartData, true});`
 
-2. In `com.jcm.tihighcharts/assets/html/chart.html` you will find that you might not always need to include `exporting.jsf`, `jquery.min.jsf`, or `highcharts-more.jsf`. If you find no need for them, feel free to delete those lines from the html and delete their associated files from the asset folder.
+2. In `ti.highcharts/assets/html/chart.html` you will find that you might not always need to include `exporting.jsf`, `jquery.min.jsf`, or `highcharts-more.jsf`. If you find no need for them, feel free to delete those lines from the html and delete their associated files from the asset folder.
 
 3. If you use this widget and you notice that your view is taking +7 seconds to load consider setting the view after the parent container has loaded. This can be done by not adding your widgets view until the parent view is loaded.
 
@@ -38,18 +38,18 @@ Monero: `41hFK3vXafy6WvuDqWZ9nZD1kMuaos54FZnjodhmJ2iL19VvHA2xcN4XWgqyiCcEZGUXFnj
 	});
 	```
 
-## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.jcm.TiHighcharts)
+## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/ti.highcharts)
 
-1. Install [this widget](http://gitt.io/component/com.jcm.TiHighcharts) via [gitTio](http://gitt.io):
+1. Install [this widget](http://gitt.io/component/ti.highcharts) via [gitTio](http://gitt.io):
 
-	`gittio install com.jcm.TiHighcharts`
+	`gittio install ti.highcharts`
 
 2. In your `app/views/index.xml` use it like this:
 
  	```
 	<Alloy>
 		<View id="chartView">
-			<Widget src="com.jcm.tihighcharts" id="lineChart"></Widget>
+			<Widget src="ti.highcharts" id="lineChart"></Widget>
 		</View>
 	</Alloy>
 	```
